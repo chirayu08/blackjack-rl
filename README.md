@@ -1,4 +1,4 @@
-# 🃏 Blackjack · Monte Carlo RL — Full Stack
+#Blackjack · Monte Carlo RL — Full Stack
 
 A production-quality Blackjack web app with a real **Node.js backend**, a proper **Monte Carlo Reinforcement Learning algorithm**, and a polished casino-style frontend.
 
@@ -85,5 +85,4 @@ The backend serves the frontend statically — one process, one port.
 **Convergence**: ~50,000 episodes for stable hard-hand policy
 
 ## License
-
-MIT
+License This project is released under the MIT License.
