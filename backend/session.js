@@ -54,16 +54,19 @@ function formatCard(card) {
 }
 
 function sessionState(session, revealDealer = false) {
-  const playerTotal = handValue(session.playerHand);
-  const dealerTotal = handValue(session.dealerHand);
+  const playerTotal = session.playerHand.length ? handValue(session.playerHand) : 0;
+  const dealerTotal = session.dealerHand.length ? handValue(session.dealerHand) : 0;
+  const hasCards = session.dealerHand.length >= 2;
   return {
     phase: session.phase,
     playerHand: session.playerHand.map(formatCard),
-    dealerHand: revealDealer
-      ? session.dealerHand.map(formatCard)
-      : [formatCard(session.dealerHand[0]), { rank: '?', suit: '?', value: 0 }],
+    dealerHand: !hasCards
+      ? []
+      : revealDealer
+        ? session.dealerHand.map(formatCard)
+        : [formatCard(session.dealerHand[0]), { rank: '?', suit: '?', value: 0 }],
     playerTotal,
-    dealerTotal: revealDealer ? dealerTotal : handValue([session.dealerHand[0]]),
+    dealerTotal: !hasCards ? 0 : revealDealer ? dealerTotal : handValue([session.dealerHand[0]]),
     balance: session.balance,
     bet: session.bet,
     doubled: session.doubled,
