@@ -1,0 +1,259 @@
+{
+  "total": 887448,
+  "wins": 384379,
+  "losses": 424653,
+  "pushes": 78416,
+  "blackjacks": 42470,
+  "playerBusts": 157302,
+  "dealerBusts": 370492,
+  "winRate": 0.4331,
+  "lossRate": 0.4785,
+  "pushRate": 0.0884,
+  "blackjackRate": 0.0479,
+  "playerBustRate": 0.1773,
+  "dealerBustRate": 0.4175,
+  "actionSplit": {
+    "stand": 0.7216,
+    "hit": 0.2784
+  },
+  "byPlayerSum": {
+    "4": {
+      "winRate": 0.3261,
+      "lossRate": 0.6225,
+      "pushRate": 0.0514,
+      "n": 10018
+    },
+    "5": {
+      "winRate": 0.3181,
+      "lossRate": 0.6232,
+      "pushRate": 0.0587,
+      "n": 16424
+    },
+    "6": {
+      "winRate": 0.3179,
+      "lossRate": 0.6195,
+      "pushRate": 0.0625,
+      "n": 22018
+    },
+    "7": {
+      "winRate": 0.3264,
+      "lossRate": 0.5773,
+      "pushRate": 0.0963,
+      "n": 28352
+    },
+    "8": {
+      "winRate": 0.3863,
+      "lossRate": 0.5135,
+      "pushRate": 0.1003,
+      "n": 26112
+    },
+    "9": {
+      "winRate": 0.4392,
+      "lossRate": 0.459,
+      "pushRate": 0.1018,
+      "n": 31503
+    },
+    "10": {
+      "winRate": 0.497,
+      "lossRate": 0.387,
+      "pushRate": 0.116,
+      "n": 36851
+    },
+    "11": {
+      "winRate": 0.5364,
+      "lossRate": 0.3641,
+      "pushRate": 0.0995,
+      "n": 42385
+    },
+    "12": {
+      "winRate": 0.3204,
+      "lossRate": 0.6223,
+      "pushRate": 0.0574,
+      "n": 82746
+    },
+    "13": {
+      "winRate": 0.3145,
+      "lossRate": 0.6346,
+      "pushRate": 0.051,
+      "n": 79675
+    },
+    "14": {
+      "winRate": 0.3106,
+      "lossRate": 0.6403,
+      "pushRate": 0.0491,
+      "n": 74052
+    },
+    "15": {
+      "winRate": 0.302,
+      "lossRate": 0.6507,
+      "pushRate": 0.0473,
+      "n": 68004
+    },
+    "16": {
+      "winRate": 0.2968,
+      "lossRate": 0.657,
+      "pushRate": 0.0463,
+      "n": 61557
+    },
+    "17": {
+      "winRate": 0.3007,
+      "lossRate": 0.5549,
+      "pushRate": 0.1443,
+      "n": 55675
+    },
+    "18": {
+      "winRate": 0.427,
+      "lossRate": 0.4346,
+      "pushRate": 0.1384,
+      "n": 57818
+    },
+    "19": {
+      "winRate": 0.5686,
+      "lossRate": 0.2988,
+      "pushRate": 0.1326,
+      "n": 52455
+    },
+    "20": {
+      "winRate": 0.7021,
+      "lossRate": 0.1194,
+      "pushRate": 0.1784,
+      "n": 93754
+    },
+    "21": {
+      "winRate": 1,
+      "lossRate": 0,
+      "pushRate": 0,
+      "n": 42470
+    }
+  },
+  "byDealerUp": {
+    "2": {
+      "winRate": 0.4975,
+      "lossRate": 0.4419,
+      "pushRate": 0.0606,
+      "bustRate": 0.3775,
+      "n": 69210
+    },
+    "3": {
+      "winRate": 0.5124,
+      "lossRate": 0.4284,
+      "pushRate": 0.0592,
+      "bustRate": 0.3999,
+      "n": 69384
+    },
+    "4": {
+      "winRate": 0.5182,
+      "lossRate": 0.4277,
+      "pushRate": 0.0541,
+      "bustRate": 0.3868,
+      "n": 69330
+    },
+    "5": {
+      "winRate": 0.5396,
+      "lossRate": 0.4094,
+      "pushRate": 0.051,
+      "bustRate": 0.4122,
+      "n": 70044
+    },
+    "6": {
+      "winRate": 0.5497,
+      "lossRate": 0.4006,
+      "pushRate": 0.0497,
+      "bustRate": 0.4156,
+      "n": 68382
+    },
+    "7": {
+      "winRate": 0.4973,
+      "lossRate": 0.4027,
+      "pushRate": 0.1,
+      "bustRate": 0.4658,
+      "n": 68730
+    },
+    "8": {
+      "winRate": 0.4588,
+      "lossRate": 0.4389,
+      "pushRate": 0.1023,
+      "bustRate": 0.4622,
+      "n": 68652
+    },
+    "9": {
+      "winRate": 0.4022,
+      "lossRate": 0.4927,
+      "pushRate": 0.1051,
+      "bustRate": 0.4432,
+      "n": 68868
+    },
+    "10": {
+      "winRate": 0.346,
+      "lossRate": 0.5392,
+      "pushRate": 0.1148,
+      "bustRate": 0.4341,
+      "n": 277080
+    },
+    "11": {
+      "winRate": 0.2395,
+      "lossRate": 0.6489,
+      "pushRate": 0.1116,
+      "bustRate": 0.3111,
+      "n": 57768
+    }
+  },
+  "byFinalSum": {
+    "8": {
+      "winRate": 0,
+      "n": 1
+    },
+    "9": {
+      "winRate": 0.3333,
+      "n": 12
+    },
+    "10": {
+      "winRate": 0.1875,
+      "n": 32
+    },
+    "11": {
+      "winRate": 0.35,
+      "n": 80
+    },
+    "12": {
+      "winRate": 0.4074,
+      "n": 23696
+    },
+    "13": {
+      "winRate": 0.3871,
+      "n": 38755
+    },
+    "14": {
+      "winRate": 0.393,
+      "n": 37930
+    },
+    "15": {
+      "winRate": 0.384,
+      "n": 37156
+    },
+    "16": {
+      "winRate": 0.3817,
+      "n": 36305
+    },
+    "17": {
+      "winRate": 0.2652,
+      "n": 106203
+    },
+    "18": {
+      "winRate": 0.4116,
+      "n": 109537
+    },
+    "19": {
+      "winRate": 0.5532,
+      "n": 103681
+    },
+    "20": {
+      "winRate": 0.6922,
+      "n": 144493
+    },
+    "21": {
+      "winRate": 0.9325,
+      "n": 92265
+    }
+  }
+}

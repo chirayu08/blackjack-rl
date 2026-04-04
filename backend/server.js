@@ -84,6 +84,13 @@ app.get('/api/agent/recommend', (req, res) => {
   });
 });
 
+// GET /api/agent/dataset-stats — real stats from Kaggle dataset
+app.get('/api/agent/dataset-stats', (req, res) => {
+  const stats = agent.getDatasetStats();
+  if (!stats) return res.json({ available: false });
+  res.json({ available: true, stats });
+});
+
 // GET /api/agent/curve — reward learning curve
 app.get('/api/agent/curve', (req, res) => {
   const bins = parseInt(req.query.bins) || 100;
